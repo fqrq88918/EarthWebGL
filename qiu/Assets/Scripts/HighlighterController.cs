@@ -1,12 +1,14 @@
 ﻿using UnityEngine;
 using HighlightingSystem;
+using DG.Tweening;
+using UnityEngine.UI;
 
 
     public class HighlighterController : MonoBehaviour
     {
         protected Highlighter highlighter;
-        //private bool isDown = false;
-
+        private bool isMouseOver;
+		
 		protected void Awake()
 		{
 			highlighter = GetComponent<Highlighter>();
@@ -14,20 +16,24 @@ using HighlightingSystem;
 			{
 				highlighter = gameObject.AddComponent<Highlighter>();
 			}
+			
 		}
+		
 
-        protected void OnEnable()
-        {
-			gameObject.GetComponent<Highlighter> ().enabled = true;
-        }
-
-		protected void OnDisable()
-		{
-			gameObject.GetComponent<Highlighter> ().enabled = false;
-		}
+//        protected void OnEnable()
+//        {
+//			gameObject.GetComponent<Highlighter> ().enabled = true;
+//        }
+//
+//		protected void OnDisable()
+//		{
+//			gameObject.GetComponent<Highlighter> ().enabled = false;
+//		}
 
         private void OnMouseOver()
         {
+			
             highlighter.On();
+
         }
     }
