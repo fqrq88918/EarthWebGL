@@ -14,11 +14,11 @@ public class TestHerfUrl : MonoBehaviour {
 	public Material testMa;
 	// Use this for initialization
 	void Start () {
-		urlButton = GetComponent<Button> ();
-		urlButton.onClick.AddListener (delegate {
-			Debug.Log("yayaya");
-			Application.OpenURL ("http://www.baidu.com");
-		});
+//		urlButton = GetComponent<Button> ();
+//		urlButton.onClick.AddListener (delegate {
+//			Debug.Log("yayaya");
+//			Application.OpenURL ("http://www.baidu.com");
+//		});
 
 		serverPath = Application.absoluteURL + "/../Config.xml";
 		StartCoroutine(ReadPadCountXml (serverPath,delegate {

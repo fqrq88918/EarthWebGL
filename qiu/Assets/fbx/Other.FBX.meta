@@ -1,0 +1,943 @@
+fileFormatVersion: 2
+guid: 8a47511fa973f4e3bb806249ed60c1aa
+timeCreated: 1529738292
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Afghanistan
+    100002: Albania
+    100004: Algeria
+    100006: Andaman Islands
+    100008: Angola
+    100010: Antartica
+    100012: Argentina
+    100014: Armenia
+    100016: Australia
+    100018: Austria
+    100020: Azerbaijan
+    100022: Bangladesh
+    100024: Belarus
+    100026: Belgium
+    100028: Belize
+    100030: Bhutan
+    100032: Black Sea
+    100034: Bolivia
+    100036: Bosnia and Herzegovina
+    100038: Botswana
+    100040: Brazil
+    100042: Bulgaria
+    100044: Burkina Faso
+    100046: Burma
+    100048: Cambogia
+    100050: Cameroon
+    100052: Canada
+    100054: Caspian Sea
+    100056: Central African Republic
+    100058: Chad
+    100060: Chili
+    100062: Columbia
+    100064: Costa Rica
+    100066: Cote d'ivoire
+    100068: Croatia
+    100070: Cuba
+    100072: Cyprus
+    100074: Czech Republic
+    100076: Democratic republic of the Congo
+    100078: Denmark
+    100080: Dominican Republic
+    100082: Ecuador
+    100084: Egypt
+    100086: El Salvador
+    100088: Equatorial Guinea
+    100090: Estonia
+    100092: Ethiopia
+    100094: F.Y.R.O.M
+    100096: Fiji
+    100098: Finland
+    100100: France
+    100102: Franz Josef Land
+    100104: French Guiana
+    100106: Gabon
+    100108: Georgia
+    100110: Germany
+    100112: Ghana
+    100114: Greece
+    100116: Greenland
+    100118: Guatemala
+    100120: Guinea
+    100122: Guyana
+    100124: Haiti
+    100126: Honduras
+    100128: Hungary
+    100130: Iceland
+    100132: India
+    100134: Indonesia
+    100136: Iran
+    100138: Iraq
+    100140: Ireland
+    100142: Israel
+    100144: Italy
+    100146: Jamaica
+    100148: 'Japan '
+    100150: Jordan
+    100152: Kazakhstan
+    100154: Kenya
+    100156: Kuwait
+    100158: Kyroystan
+    100160: Lake Erie
+    100162: Lake Huron
+    100164: Lake Michigan
+    100166: Lake Superior
+    100168: Lake Tanganyika
+    100170: Lake Victoria
+    100172: Laos
+    100174: Latvia
+    100176: Lebanon
+    100178: Liberia
+    100180: Lithuania
+    100182: Luxembourg
+    100184: Lybia
+    100186: Madagascar
+    100188: Malaysia
+    100190: Mali
+    100192: Marocco
+    100194: Mauritania
+    100196: Mexico
+    100198: Moldava
+    100200: Mongolia
+    100202: Mozambique
+    100204: Namibia
+    100206: Nepal
+    100208: Netherlands
+    100210: New Caledonia
+    100212: New Zealand
+    100214: Nicaragua
+    100216: Niger
+    100218: Niger01
+    100220: North Korea
+    100222: Norway
+    100224: Oman
+    100226: //RootNode
+    100228: Pakistan
+    100230: Palestine
+    100232: Panama
+    100234: Paraguay
+    100236: Peru
+    100238: Philippines
+    100240: Poland
+    100242: Puerto Rico
+    100244: Qatar
+    100246: Republic of The congo
+    100248: Romania
+    100250: Russia
+    100252: Sardegna
+    100254: Saudi Arabia
+    100256: Senegal
+    100258: Serbia and Montenegro
+    100260: Sierra Leone
+    100262: Slovakia
+    100264: Slovenia
+    100266: Somalia
+    100268: South Africa
+    100270: South Korea
+    100272: Spain
+    100274: Sri Lanka
+    100276: Sudan
+    100278: Suriname
+    100280: Swaziland
+    100282: Sweden
+    100284: Switzerland
+    100286: Syria
+    100288: Taiwan (China)
+    100290: Tajikistan
+    100292: Tanzania
+    100294: Thailand
+    100296: The Bahamas
+    100298: Togo
+    100300: Tunisia
+    100302: Turkey
+    100304: Turkmenistan
+    100306: Uganda
+    100308: UK
+    100310: Ukraine
+    100312: United Arab Emirates
+    100314: United Kingdom
+    100316: United States
+    100318: United States Artic circle
+    100320: Uruguay
+    100322: Uzbekistan
+    100324: Vanuatu
+    100326: Venezuela
+    100328: Vietnam
+    100330: Western Sahara
+    100332: Yemen
+    100334: Zambia
+    100336: Zimbabwe
+    400000: Afghanistan
+    400002: Albania
+    400004: Algeria
+    400006: Andaman Islands
+    400008: Angola
+    400010: Antartica
+    400012: Argentina
+    400014: Armenia
+    400016: Australia
+    400018: Austria
+    400020: Azerbaijan
+    400022: Bangladesh
+    400024: Belarus
+    400026: Belgium
+    400028: Belize
+    400030: Bhutan
+    400032: Black Sea
+    400034: Bolivia
+    400036: Bosnia and Herzegovina
+    400038: Botswana
+    400040: Brazil
+    400042: Bulgaria
+    400044: Burkina Faso
+    400046: Burma
+    400048: Cambogia
+    400050: Cameroon
+    400052: Canada
+    400054: Caspian Sea
+    400056: Central African Republic
+    400058: Chad
+    400060: Chili
+    400062: Columbia
+    400064: Costa Rica
+    400066: Cote d'ivoire
+    400068: Croatia
+    400070: Cuba
+    400072: Cyprus
+    400074: Czech Republic
+    400076: Democratic republic of the Congo
+    400078: Denmark
+    400080: Dominican Republic
+    400082: Ecuador
+    400084: Egypt
+    400086: El Salvador
+    400088: Equatorial Guinea
+    400090: Estonia
+    400092: Ethiopia
+    400094: F.Y.R.O.M
+    400096: Fiji
+    400098: Finland
+    400100: France
+    400102: Franz Josef Land
+    400104: French Guiana
+    400106: Gabon
+    400108: Georgia
+    400110: Germany
+    400112: Ghana
+    400114: Greece
+    400116: Greenland
+    400118: Guatemala
+    400120: Guinea
+    400122: Guyana
+    400124: Haiti
+    400126: Honduras
+    400128: Hungary
+    400130: Iceland
+    400132: India
+    400134: Indonesia
+    400136: Iran
+    400138: Iraq
+    400140: Ireland
+    400142: Israel
+    400144: Italy
+    400146: Jamaica
+    400148: 'Japan '
+    400150: Jordan
+    400152: Kazakhstan
+    400154: Kenya
+    400156: Kuwait
+    400158: Kyroystan
+    400160: Lake Erie
+    400162: Lake Huron
+    400164: Lake Michigan
+    400166: Lake Superior
+    400168: Lake Tanganyika
+    400170: Lake Victoria
+    400172: Laos
+    400174: Latvia
+    400176: Lebanon
+    400178: Liberia
+    400180: Lithuania
+    400182: Luxembourg
+    400184: Lybia
+    400186: Madagascar
+    400188: Malaysia
+    400190: Mali
+    400192: Marocco
+    400194: Mauritania
+    400196: Mexico
+    400198: Moldava
+    400200: Mongolia
+    400202: Mozambique
+    400204: Namibia
+    400206: Nepal
+    400208: Netherlands
+    400210: New Caledonia
+    400212: New Zealand
+    400214: Nicaragua
+    400216: Niger
+    400218: Niger01
+    400220: North Korea
+    400222: Norway
+    400224: Oman
+    400226: //RootNode
+    400228: Pakistan
+    400230: Palestine
+    400232: Panama
+    400234: Paraguay
+    400236: Peru
+    400238: Philippines
+    400240: Poland
+    400242: Puerto Rico
+    400244: Qatar
+    400246: Republic of The congo
+    400248: Romania
+    400250: Russia
+    400252: Sardegna
+    400254: Saudi Arabia
+    400256: Senegal
+    400258: Serbia and Montenegro
+    400260: Sierra Leone
+    400262: Slovakia
+    400264: Slovenia
+    400266: Somalia
+    400268: South Africa
+    400270: South Korea
+    400272: Spain
+    400274: Sri Lanka
+    400276: Sudan
+    400278: Suriname
+    400280: Swaziland
+    400282: Sweden
+    400284: Switzerland
+    400286: Syria
+    400288: Taiwan (China)
+    400290: Tajikistan
+    400292: Tanzania
+    400294: Thailand
+    400296: The Bahamas
+    400298: Togo
+    400300: Tunisia
+    400302: Turkey
+    400304: Turkmenistan
+    400306: Uganda
+    400308: UK
+    400310: Ukraine
+    400312: United Arab Emirates
+    400314: United Kingdom
+    400316: United States
+    400318: United States Artic circle
+    400320: Uruguay
+    400322: Uzbekistan
+    400324: Vanuatu
+    400326: Venezuela
+    400328: Vietnam
+    400330: Western Sahara
+    400332: Yemen
+    400334: Zambia
+    400336: Zimbabwe
+    2300000: Afghanistan
+    2300002: Albania
+    2300004: Algeria
+    2300006: Andaman Islands
+    2300008: Angola
+    2300010: Antartica
+    2300012: Argentina
+    2300014: Armenia
+    2300016: Australia
+    2300018: Austria
+    2300020: Azerbaijan
+    2300022: Bangladesh
+    2300024: Belarus
+    2300026: Belgium
+    2300028: Belize
+    2300030: Bhutan
+    2300032: Black Sea
+    2300034: Bolivia
+    2300036: Bosnia and Herzegovina
+    2300038: Botswana
+    2300040: Brazil
+    2300042: Bulgaria
+    2300044: Burkina Faso
+    2300046: Burma
+    2300048: Cambogia
+    2300050: Cameroon
+    2300052: Canada
+    2300054: Caspian Sea
+    2300056: Central African Republic
+    2300058: Chad
+    2300060: Chili
+    2300062: Columbia
+    2300064: Costa Rica
+    2300066: Cote d'ivoire
+    2300068: Croatia
+    2300070: Cuba
+    2300072: Cyprus
+    2300074: Czech Republic
+    2300076: Democratic republic of the Congo
+    2300078: Denmark
+    2300080: Dominican Republic
+    2300082: Ecuador
+    2300084: Egypt
+    2300086: El Salvador
+    2300088: Equatorial Guinea
+    2300090: Estonia
+    2300092: Ethiopia
+    2300094: F.Y.R.O.M
+    2300096: Fiji
+    2300098: Finland
+    2300100: France
+    2300102: Franz Josef Land
+    2300104: French Guiana
+    2300106: Gabon
+    2300108: Georgia
+    2300110: Germany
+    2300112: Ghana
+    2300114: Greece
+    2300116: Greenland
+    2300118: Guatemala
+    2300120: Guinea
+    2300122: Guyana
+    2300124: Haiti
+    2300126: Honduras
+    2300128: Hungary
+    2300130: Iceland
+    2300132: India
+    2300134: Indonesia
+    2300136: Iran
+    2300138: Iraq
+    2300140: Ireland
+    2300142: Israel
+    2300144: Italy
+    2300146: Jamaica
+    2300148: 'Japan '
+    2300150: Jordan
+    2300152: Kazakhstan
+    2300154: Kenya
+    2300156: Kuwait
+    2300158: Kyroystan
+    2300160: Lake Erie
+    2300162: Lake Huron
+    2300164: Lake Michigan
+    2300166: Lake Superior
+    2300168: Lake Tanganyika
+    2300170: Lake Victoria
+    2300172: Laos
+    2300174: Latvia
+    2300176: Lebanon
+    2300178: Liberia
+    2300180: Lithuania
+    2300182: Luxembourg
+    2300184: Lybia
+    2300186: Madagascar
+    2300188: Malaysia
+    2300190: Mali
+    2300192: Marocco
+    2300194: Mauritania
+    2300196: Mexico
+    2300198: Moldava
+    2300200: Mongolia
+    2300202: Mozambique
+    2300204: Namibia
+    2300206: Nepal
+    2300208: Netherlands
+    2300210: New Caledonia
+    2300212: New Zealand
+    2300214: Nicaragua
+    2300216: Niger
+    2300218: Niger01
+    2300220: North Korea
+    2300222: Norway
+    2300224: Oman
+    2300226: Pakistan
+    2300228: Palestine
+    2300230: Panama
+    2300232: Paraguay
+    2300234: Peru
+    2300236: Philippines
+    2300238: Poland
+    2300240: Puerto Rico
+    2300242: Qatar
+    2300244: Republic of The congo
+    2300246: Romania
+    2300248: Russia
+    2300250: Sardegna
+    2300252: Saudi Arabia
+    2300254: Senegal
+    2300256: Serbia and Montenegro
+    2300258: Sierra Leone
+    2300260: Slovakia
+    2300262: Slovenia
+    2300264: Somalia
+    2300266: South Africa
+    2300268: South Korea
+    2300270: Spain
+    2300272: Sri Lanka
+    2300274: Sudan
+    2300276: Suriname
+    2300278: Swaziland
+    2300280: Sweden
+    2300282: Switzerland
+    2300284: Syria
+    2300286: Taiwan (China)
+    2300288: Tajikistan
+    2300290: Tanzania
+    2300292: Thailand
+    2300294: The Bahamas
+    2300296: Togo
+    2300298: Tunisia
+    2300300: Turkey
+    2300302: Turkmenistan
+    2300304: Uganda
+    2300306: UK
+    2300308: Ukraine
+    2300310: United Arab Emirates
+    2300312: United Kingdom
+    2300314: United States
+    2300316: United States Artic circle
+    2300318: Uruguay
+    2300320: Uzbekistan
+    2300322: Vanuatu
+    2300324: Venezuela
+    2300326: Vietnam
+    2300328: Western Sahara
+    2300330: Yemen
+    2300332: Zambia
+    2300334: Zimbabwe
+    3300000: Afghanistan
+    3300002: Albania
+    3300004: Algeria
+    3300006: Andaman Islands
+    3300008: Angola
+    3300010: Antartica
+    3300012: Argentina
+    3300014: Armenia
+    3300016: Australia
+    3300018: Austria
+    3300020: Azerbaijan
+    3300022: Bangladesh
+    3300024: Belarus
+    3300026: Belgium
+    3300028: Belize
+    3300030: Bhutan
+    3300032: Black Sea
+    3300034: Bolivia
+    3300036: Bosnia and Herzegovina
+    3300038: Botswana
+    3300040: Brazil
+    3300042: Bulgaria
+    3300044: Burkina Faso
+    3300046: Burma
+    3300048: Cambogia
+    3300050: Cameroon
+    3300052: Canada
+    3300054: Caspian Sea
+    3300056: Central African Republic
+    3300058: Chad
+    3300060: Chili
+    3300062: Columbia
+    3300064: Costa Rica
+    3300066: Cote d'ivoire
+    3300068: Croatia
+    3300070: Cuba
+    3300072: Cyprus
+    3300074: Czech Republic
+    3300076: Democratic republic of the Congo
+    3300078: Denmark
+    3300080: Dominican Republic
+    3300082: Ecuador
+    3300084: Egypt
+    3300086: El Salvador
+    3300088: Equatorial Guinea
+    3300090: Estonia
+    3300092: Ethiopia
+    3300094: F.Y.R.O.M
+    3300096: Fiji
+    3300098: Finland
+    3300100: France
+    3300102: Franz Josef Land
+    3300104: French Guiana
+    3300106: Gabon
+    3300108: Georgia
+    3300110: Germany
+    3300112: Ghana
+    3300114: Greece
+    3300116: Greenland
+    3300118: Guatemala
+    3300120: Guinea
+    3300122: Guyana
+    3300124: Haiti
+    3300126: Honduras
+    3300128: Hungary
+    3300130: Iceland
+    3300132: India
+    3300134: Indonesia
+    3300136: Iran
+    3300138: Iraq
+    3300140: Ireland
+    3300142: Israel
+    3300144: Italy
+    3300146: Jamaica
+    3300148: 'Japan '
+    3300150: Jordan
+    3300152: Kazakhstan
+    3300154: Kenya
+    3300156: Kuwait
+    3300158: Kyroystan
+    3300160: Lake Erie
+    3300162: Lake Huron
+    3300164: Lake Michigan
+    3300166: Lake Superior
+    3300168: Lake Tanganyika
+    3300170: Lake Victoria
+    3300172: Laos
+    3300174: Latvia
+    3300176: Lebanon
+    3300178: Liberia
+    3300180: Lithuania
+    3300182: Luxembourg
+    3300184: Lybia
+    3300186: Madagascar
+    3300188: Malaysia
+    3300190: Mali
+    3300192: Marocco
+    3300194: Mauritania
+    3300196: Mexico
+    3300198: Moldava
+    3300200: Mongolia
+    3300202: Mozambique
+    3300204: Namibia
+    3300206: Nepal
+    3300208: Netherlands
+    3300210: New Caledonia
+    3300212: New Zealand
+    3300214: Nicaragua
+    3300216: Niger
+    3300218: Niger01
+    3300220: North Korea
+    3300222: Norway
+    3300224: Oman
+    3300226: Pakistan
+    3300228: Palestine
+    3300230: Panama
+    3300232: Paraguay
+    3300234: Peru
+    3300236: Philippines
+    3300238: Poland
+    3300240: Puerto Rico
+    3300242: Qatar
+    3300244: Republic of The congo
+    3300246: Romania
+    3300248: Russia
+    3300250: Sardegna
+    3300252: Saudi Arabia
+    3300254: Senegal
+    3300256: Serbia and Montenegro
+    3300258: Sierra Leone
+    3300260: Slovakia
+    3300262: Slovenia
+    3300264: Somalia
+    3300266: South Africa
+    3300268: South Korea
+    3300270: Spain
+    3300272: Sri Lanka
+    3300274: Sudan
+    3300276: Suriname
+    3300278: Swaziland
+    3300280: Sweden
+    3300282: Switzerland
+    3300284: Syria
+    3300286: Taiwan (China)
+    3300288: Tajikistan
+    3300290: Tanzania
+    3300292: Thailand
+    3300294: The Bahamas
+    3300296: Togo
+    3300298: Tunisia
+    3300300: Turkey
+    3300302: Turkmenistan
+    3300304: Uganda
+    3300306: UK
+    3300308: Ukraine
+    3300310: United Arab Emirates
+    3300312: United Kingdom
+    3300314: United States
+    3300316: United States Artic circle
+    3300318: Uruguay
+    3300320: Uzbekistan
+    3300322: Vanuatu
+    3300324: Venezuela
+    3300326: Vietnam
+    3300328: Western Sahara
+    3300330: Yemen
+    3300332: Zambia
+    3300334: Zimbabwe
+    4300000: Greenland
+    4300002: 'Japan '
+    4300004: Syria
+    4300006: Kuwait
+    4300008: Iraq
+    4300010: Jordan
+    4300012: Lebanon
+    4300014: Palestine
+    4300016: Israel
+    4300018: Oman
+    4300020: Yemen
+    4300022: United Arab Emirates
+    4300024: Qatar
+    4300026: Saudi Arabia
+    4300028: Iran
+    4300030: Afghanistan
+    4300032: Sri Lanka
+    4300034: Tajikistan
+    4300036: United Kingdom
+    4300038: Denmark
+    4300040: Vanuatu
+    4300042: New Zealand
+    4300044: New Caledonia
+    4300046: Fiji
+    4300048: Indonesia
+    4300050: Philippines
+    4300052: Australia
+    4300054: Malaysia
+    4300056: Thailand
+    4300058: Antartica
+    4300060: Iceland
+    4300062: UK
+    4300064: Franz Josef Land
+    4300066: Albania
+    4300068: Andaman Islands
+    4300070: Armenia
+    4300072: Austria
+    4300074: Azerbaijan
+    4300076: Bangladesh
+    4300078: Belarus
+    4300080: Belgium
+    4300082: Bhutan
+    4300084: Bosnia and Herzegovina
+    4300086: Bulgaria
+    4300088: Burma
+    4300090: Cambogia
+    4300092: Caspian Sea
+    4300094: Croatia
+    4300096: Cyprus
+    4300098: Czech Republic
+    4300100: Estonia
+    4300102: F.Y.R.O.M
+    4300104: Finland
+    4300106: France
+    4300108: Georgia
+    4300110: Germany
+    4300112: Greece
+    4300114: Hungary
+    4300116: Ireland
+    4300118: Italy
+    4300120: Kazakhstan
+    4300122: Kyroystan
+    4300124: Laos
+    4300126: Latvia
+    4300128: Lithuania
+    4300130: Luxembourg
+    4300132: Moldava
+    4300134: Mongolia
+    4300136: Nepal
+    4300138: Netherlands
+    4300140: North Korea
+    4300142: Norway
+    4300144: Pakistan
+    4300146: Poland
+    4300148: Romania
+    4300150: Russia
+    4300152: Sardegna
+    4300154: Serbia and Montenegro
+    4300156: Slovakia
+    4300158: Slovenia
+    4300160: Spain
+    4300162: Sweden
+    4300164: Switzerland
+    4300166: Taiwan (China)
+    4300168: Turkey
+    4300170: Turkmenistan
+    4300172: Ukraine
+    4300174: Uzbekistan
+    4300176: Vietnam
+    4300178: India
+    4300180: Black Sea
+    4300182: South Korea
+    4300184: Canada
+    4300186: United States
+    4300188: Lake Michigan
+    4300190: Lake Erie
+    4300192: Lake Huron
+    4300194: Lake Superior
+    4300196: Cuba
+    4300198: Puerto Rico
+    4300200: Dominican Republic
+    4300202: Haiti
+    4300204: The Bahamas
+    4300206: Jamaica
+    4300208: Mexico
+    4300210: United States Artic circle
+    4300212: Panama
+    4300214: Costa Rica
+    4300216: Nicaragua
+    4300218: Honduras
+    4300220: Guatemala
+    4300222: El Salvador
+    4300224: Belize
+    4300226: Brazil
+    4300228: French Guiana
+    4300230: Suriname
+    4300232: Guyana
+    4300234: Venezuela
+    4300236: Uruguay
+    4300238: Ecuador
+    4300240: Peru
+    4300242: Bolivia
+    4300244: Paraguay
+    4300246: Chili
+    4300248: Argentina
+    4300250: Columbia
+    4300252: Algeria
+    4300254: Angola
+    4300256: Botswana
+    4300258: Burkina Faso
+    4300260: Cameroon
+    4300262: Central African Republic
+    4300264: Chad
+    4300266: Cote d'ivoire
+    4300268: Democratic republic of the Congo
+    4300270: Equatorial Guinea
+    4300272: Ethiopia
+    4300274: Gabon
+    4300276: Ghana
+    4300278: Guinea
+    4300280: Kenya
+    4300282: Lake Tanganyika
+    4300284: Lake Victoria
+    4300286: Liberia
+    4300288: Madagascar
+    4300290: Mali
+    4300292: Marocco
+    4300294: Mauritania
+    4300296: Mozambique
+    4300298: Namibia
+    4300300: Niger
+    4300302: Niger01
+    4300304: Republic of The congo
+    4300306: Sierra Leone
+    4300308: South Africa
+    4300310: Swaziland
+    4300312: Tanzania
+    4300314: Togo
+    4300316: Tunisia
+    4300318: Uganda
+    4300320: Western Sahara
+    4300322: Zambia
+    4300324: Zimbabwe
+    4300326: Somalia
+    4300328: Sudan
+    4300330: Lybia
+    4300332: Egypt
+    4300334: Senegal
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lakes and interior Seas
+    second: {fileID: 2100000, guid: aa69b85eab2f84052a2062ec3930fabc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #194'
+    second: {fileID: 2100000, guid: da60b0dbd53ae4580b0161c2f51da890, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: back
+    second: {fileID: 2100000, guid: 98e2a290140a5468c8007620cb73d4a7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
