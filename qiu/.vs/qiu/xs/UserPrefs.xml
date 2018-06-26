@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{79E70D23-F59B-D3BD-3F4C-AEA3887714BE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Config.xml">
+    <Files>
+      <File FileName="Assets/Scripts/MouseTouchHelper.cs" Line="80" Column="83" />
+      <File FileName="Assets/Scripts/CameraViewer.cs" Line="81" Column="52" />
+      <File FileName="Assets/Scripts/ConfigEarth.cs" Line="46" Column="13" />
+      <File FileName="Assets/Config.xml" Line="2" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.qiu PreferredExecutionTarget="Unity.Editor" />
+</Properties>

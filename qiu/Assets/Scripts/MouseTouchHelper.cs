@@ -13,6 +13,8 @@ public class MouseTouchHelper : MonoBehaviour {
 
 	public Transform textParent;
 
+    private float clickTimer;
+
 	// Use this for initialization
 	void Start () {
 		isPressWrong = false;
@@ -48,6 +50,11 @@ public class MouseTouchHelper : MonoBehaviour {
 			}
 
 		}
+
+        if(!isPressWrong)
+        {
+            clickTimer++;
+        }
 	}
 
 	void OnMouseDown()
@@ -59,6 +66,7 @@ public class MouseTouchHelper : MonoBehaviour {
 			if (hit.collider.name == "China" ) 
 			{
 				isPressWrong = false;
+                clickTimer = 0;
 			}
 		}
 	}
@@ -69,7 +77,7 @@ public class MouseTouchHelper : MonoBehaviour {
 		RaycastHit hit;  
 		if (Physics.Raycast (ray, out hit))
 		{
-			if (hit.collider.name == "China" && !isPressWrong) 
+            if (hit.collider.name == "China" && !isPressWrong && clickTimer <= 20f) 
 			{
 				Application.OpenURL ("http://221.229.221.230:8090/china.html");
 			}

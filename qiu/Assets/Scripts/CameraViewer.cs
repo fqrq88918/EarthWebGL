@@ -76,14 +76,17 @@ public class CameraViewer : MonoBehaviour
 	void LateUpdate()
 	{
         
-
+        if(!StartRotate)
+        {
+            xDeg += xSpeed * 0.02f * Time.deltaTime;
+        }
         
 		// 鼠标滚轮 ———— 缩放远近
         
 			desiredDistance -= Input.GetAxis ("Mouse ScrollWheel") * Time.deltaTime * zoomRate * Mathf.Abs (desiredDistance);
 
 		// 鼠标左键 ———— 旋转
-		if (Input.GetMouseButtonDown (0))
+		if (Input.GetMouseButtonUp (0))
         {
 			StartRotate = false;
 		}
@@ -98,13 +101,13 @@ public class CameraViewer : MonoBehaviour
 			StartRotate = true;
 		}
 
-		if (StartRotate)
-		{
+		//if (StartRotate)
+		//{
             desiredRotation = Quaternion.Euler(yDeg, xDeg, 0);
             currentRotation = transform.rotation;
 			rotation = Quaternion.Lerp (currentRotation, desiredRotation, Time.deltaTime * zoomDampening);
 			transform.rotation = rotation;
-		}
+		//}
 
 		desiredDistance = Mathf.Clamp(desiredDistance, minDistance, maxDistance);
         currentDistance = Mathf.Lerp(currentDistance, desiredDistance, Time.deltaTime * zoomDampening);

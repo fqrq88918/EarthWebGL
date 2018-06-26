@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <infos>
 
-	<!-- 服务器数据 -->
-	<!-- china颜色 -->
-	<chinaColor value="0.1"/>
-
-
-
+    <!-- 服务器数据 -->
+    <!-- china颜色 -->
+    <ChinaColor value="00FFFF"/>
+    <!-- Afghanistan颜色 -->
+    <AfghanistanColor value="A2B5CD"/>
 </infos>
