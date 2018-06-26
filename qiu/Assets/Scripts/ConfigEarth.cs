@@ -22,8 +22,8 @@ public class ConfigEarth : MonoBehaviour {
 //			Application.OpenURL ("http://www.baidu.com");
 //		});
 
-		//serverPath = Application.absoluteURL + "/../Config.xml";
-        serverPath = "file://" + Application.dataPath + "/Config.xml";
+		serverPath = Application.absoluteURL + "/../Config.xml";
+        //serverPath = "file://" + Application.dataPath + "/Config.xml";
         Debug.Log(serverPath);
 		StartCoroutine(ReadPadCountXml (serverPath,delegate {
 			
