@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{79E70D23-F59B-D3BD-3F4C-AEA3887714BE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HighlighterController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ConfigEarth.cs">
     <Files>
       <File FileName="Assets/Scripts/MouseTouchHelper.cs" Line="43" Column="65" />
       <File FileName="Assets/Scripts/CameraViewer.cs" Line="106" Column="15" />
-      <File FileName="Assets/Scripts/ConfigEarth.cs" Line="60" Column="3" />
-      <File FileName="Assets/Config.xml" Line="8" Column="30" />
+      <File FileName="Assets/Scripts/ConfigEarth.cs" Line="57" Column="94" />
       <File FileName="../../../../../../../../Applications/MAMP/htdocs/test3JS/test.html" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/HighlighterController.cs" Line="37" Column="13" />
+      <File FileName="Assets/Scripts/HighlighterController.cs" Line="44" Column="77" />
+      <File FileName="Assets/Config.xml" Line="12" Column="8" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

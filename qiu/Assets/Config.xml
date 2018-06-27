@@ -3,7 +3,50 @@
 
     <!-- 服务器数据 -->
     <!-- china颜色 -->
-    <ChinaColor value="00FFFF"/>
+    <ChinaColor value="ff0000"/>
+    
     <!-- Afghanistan颜色 -->
-    <AfghanistanColor value="A2B5CD"/>
+    <AfghanistanColor value="FF66FF"/>
+    
+    <!-- United States of Ameria颜色 -->
+    <UnitedStatesofAmeriaColor value="FF3300"/>
+    
+    <!-- Canada颜色 -->
+    <CanadaColor value="CCCCFF"/>
+    
+    <!-- Brazil颜色 -->
+    <BrazilColor value="CC9933"/>
+    
+    <!-- Russia颜色 -->
+    <RussiaColor value="CC33FF"/>
+    
+    <!-- Antartica颜色 -->
+    <AntarticaColor value="99FF00"/>
+    
+    <!-- Australia颜色 -->
+    <AustraliaColor value="6699FF"/>
+
+    <!-- India颜色 -->
+    <IndiaColor value="663333"/>
+    
+    <!-- Saudi Arabia颜色 -->
+    <SaudiArabiaColor value="3300FF"/>
+    
+    <!-- Argentina颜色 -->
+    <ArgentinaColor value="33FFFF"/>
+    
+    <!-- Iran颜色 -->
+    <IranColor value="339999"/>
+
+     <!-- Sudan颜色 -->
+    <SudanColor value="FFCC00"/>
+    
+    <!-- Indonesia颜色 -->
+    <IndonesiaColor value="6633CC"/>
+    
+    <!-- Lybia颜色 -->
+    <LybiaColor value="CC66CC"/>
+    
+    <!-- Algeria颜色 -->
+    <AlgeriaColor value="FF9999"/>
 </infos>

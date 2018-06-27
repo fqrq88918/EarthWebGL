@@ -14,6 +14,20 @@ public class ConfigEarth : MonoBehaviour {
 
 	public Material ChinaMa;
     public Material AfghanistanMa;
+    public Material UnitedStatesofAmeriaMa;
+    public Material CanadaMa;
+    public Material BrazilMa;
+    public Material RussiaMa;
+    public Material AntarticaMa;
+    public Material AustraliaMa;
+    public Material IndiaMa;
+    public Material SaudiArabiaMa;
+    public Material ArgentinaMa;
+    public Material IranMa;
+    public Material SudanMa;
+    public Material IndonesiaMa;
+    public Material LybiaMa;
+    public Material AlgeriaMa;
 	// Use this for initialization
 	void Start () {
 //		urlButton = GetComponent<Button> ();
@@ -49,8 +63,51 @@ public class ConfigEarth : MonoBehaviour {
 			xmlDoc.LoadXml (www.text);
 			XmlNode chinaColorNode = xmlDoc.SelectSingleNode("infos/ChinaColor");
             ChinaMa.color = HexToColor(chinaColorNode.Attributes ["value"].Value);
+
             XmlNode AfghanistanColorNode = xmlDoc.SelectSingleNode("infos/AfghanistanColor");
             AfghanistanMa.color = HexToColor(AfghanistanColorNode.Attributes["value"].Value);
+
+            XmlNode UnitedStatesofAmeriaColorNode = xmlDoc.SelectSingleNode("infos/UnitedStatesofAmeriaColor");
+            UnitedStatesofAmeriaMa.color = HexToColor(UnitedStatesofAmeriaColorNode.Attributes["value"].Value);
+
+            XmlNode CanadaColorNode = xmlDoc.SelectSingleNode("infos/CanadaColor");
+            CanadaMa.color = HexToColor(CanadaColorNode.Attributes["value"].Value);
+
+            XmlNode BrazilColorNode = xmlDoc.SelectSingleNode("infos/BrazilColor");
+            BrazilMa.color = HexToColor(BrazilColorNode.Attributes["value"].Value);
+
+            XmlNode RussiaColorNode = xmlDoc.SelectSingleNode("infos/RussiaColor");
+            RussiaMa.color = HexToColor(RussiaColorNode.Attributes["value"].Value);
+
+            XmlNode AntarticaColorNode = xmlDoc.SelectSingleNode("infos/AntarticaColor");
+            AntarticaMa.color = HexToColor(AntarticaColorNode.Attributes["value"].Value);
+
+            XmlNode AustraliaColorNode = xmlDoc.SelectSingleNode("infos/AustraliaColor");
+            AustraliaMa.color = HexToColor(AustraliaColorNode.Attributes["value"].Value);
+
+            XmlNode IndiaColorNode = xmlDoc.SelectSingleNode("infos/IndiaColor");
+            IndiaMa.color = HexToColor(IndiaColorNode.Attributes["value"].Value);
+
+            XmlNode SaudiArabiaColorNode = xmlDoc.SelectSingleNode("infos/SaudiArabiaColor");
+            SaudiArabiaMa.color = HexToColor(SaudiArabiaColorNode.Attributes["value"].Value);
+
+            XmlNode ArgentinaColorNode = xmlDoc.SelectSingleNode("infos/ArgentinaColor");
+            ArgentinaMa.color = HexToColor(ArgentinaColorNode.Attributes["value"].Value);
+
+            XmlNode IranColorNode = xmlDoc.SelectSingleNode("infos/IranColor");
+            IranMa.color = HexToColor(IranColorNode.Attributes["value"].Value);
+
+            XmlNode SudanColorNode = xmlDoc.SelectSingleNode("infos/SudanColor");
+            SudanMa.color = HexToColor(SudanColorNode.Attributes["value"].Value);
+
+            XmlNode IndonesiaColorNode = xmlDoc.SelectSingleNode("infos/IndonesiaColor");
+            IndonesiaMa.color = HexToColor(IndonesiaColorNode.Attributes["value"].Value);
+
+            XmlNode LybiaColorNode = xmlDoc.SelectSingleNode("infos/LybiaColor");
+            LybiaMa.color = HexToColor(LybiaColorNode.Attributes["value"].Value);
+
+            XmlNode AlgeriaColorNode = xmlDoc.SelectSingleNode("infos/AlgeriaColor");
+            AlgeriaMa.color = HexToColor(AlgeriaColorNode.Attributes["value"].Value);
 		}
 
 		yield return new WaitForEndOfFrame ();

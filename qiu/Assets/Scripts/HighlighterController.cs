@@ -41,7 +41,7 @@ using UnityEngine.UI;
                 transform.GetChild(i).GetComponent<Highlighter>().On();
             }
         }
-        else if(transform.parent.name != "Other")
+        else if(transform.parent.name != "Other" && transform.name != "China")
         {
             transform.parent.GetComponent<Highlighter>().On();
         }
