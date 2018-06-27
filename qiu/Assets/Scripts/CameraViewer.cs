@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CameraViewer : MonoBehaviour
+public class CameraViewer : SingletonMono<CameraViewer>
 {
 	public static CameraViewer Instance;
 
@@ -38,7 +38,12 @@ public class CameraViewer : MonoBehaviour
     //摄像机动画变量
     public bool isAutoChangeView;
 
-	void Awake() { Init(); }
+	protected override void Awake()
+	{
+        base.Awake();
+        Init();
+	}
+	//void Awake() { Init(); }
 
 
 	[HideInInspector]

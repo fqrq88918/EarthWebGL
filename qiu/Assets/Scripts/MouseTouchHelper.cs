@@ -40,12 +40,14 @@ public class MouseTouchHelper : MonoBehaviour {
 				{
 					textParent.Find (currentPressName).GetComponent<Text> ().DOFade (0f, 1f);
 					textParent.Find (currentPressName).DOScale (0f, 1f);
+                    CameraViewer.getInstance.StartRotate = false;
 				}
 				currentPressName = hit.collider.name;
 				if (textParent.Find (currentPressName) != null) 
 				{
 					textParent.Find (currentPressName).GetComponent<Text> ().DOFade (1f, 1f);
 					textParent.Find (currentPressName).DOScale (1f, 1f);
+                    CameraViewer.getInstance.StartRotate = true;
 				}
 			}
 

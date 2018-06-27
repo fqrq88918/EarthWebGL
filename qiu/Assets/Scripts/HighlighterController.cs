@@ -34,6 +34,16 @@ using UnityEngine.UI;
         {
 			
             highlighter.On();
-
+        if(transform.childCount > 0)
+        {
+            for (int i = 0; i < transform.childCount;i++)
+            {
+                transform.GetChild(i).GetComponent<Highlighter>().On();
+            }
+        }
+        else if(transform.parent.name != "Other")
+        {
+            transform.parent.GetComponent<Highlighter>().On();
+        }
         }
     }
