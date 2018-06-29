@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{79E70D23-F59B-D3BD-3F4C-AEA3887714BE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ConfigEarth.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MouseTouchHelper.cs">
     <Files>
       <File FileName="Assets/Scripts/MouseTouchHelper.cs" Line="43" Column="65" />
       <File FileName="Assets/Scripts/CameraViewer.cs" Line="106" Column="15" />
