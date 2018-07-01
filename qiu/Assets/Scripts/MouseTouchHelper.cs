@@ -15,6 +15,8 @@ public class MouseTouchHelper : MonoBehaviour {
 
     private float clickTimer;
 
+
+
 	// Use this for initialization
 	void Start () {
 		isPressWrong = false;
@@ -40,6 +42,7 @@ public class MouseTouchHelper : MonoBehaviour {
 				{
 					textParent.Find (currentPressName).GetComponent<Text> ().DOFade (0f, 1f);
 					textParent.Find (currentPressName).DOScale (0f, 1f);
+					//CameraViewer.getInstance.rotateSpeed = CameraViewer.getInstance.constRotateSpeed;
                     CameraViewer.getInstance.StartRotate = false;
 				}
 				currentPressName = hit.collider.name;
@@ -48,6 +51,7 @@ public class MouseTouchHelper : MonoBehaviour {
 					textParent.Find (currentPressName).GetComponent<Text> ().DOFade (1f, 1f);
 					textParent.Find (currentPressName).DOScale (1f, 1f);
                     CameraViewer.getInstance.StartRotate = true;
+					//CameraViewer.getInstance.rotateSpeed = 0f;
 				}
 			}
 

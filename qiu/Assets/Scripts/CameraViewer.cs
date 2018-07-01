@@ -38,6 +38,10 @@ public class CameraViewer : SingletonMono<CameraViewer>
     //摄像机动画变量
     public bool isAutoChangeView;
 
+	public float rotateSpeed;
+
+	public float constRotateSpeed;
+
 	protected override void Awake()
 	{
         base.Awake();
@@ -83,7 +87,7 @@ public class CameraViewer : SingletonMono<CameraViewer>
         
         if(!StartRotate)
         {
-            xDeg += xSpeed * 0.02f * Time.deltaTime;
+			xDeg += xSpeed * 0.02f * Time.deltaTime * rotateSpeed;
         }
         
 		// 鼠标滚轮 ———— 缩放远近
@@ -104,6 +108,7 @@ public class CameraViewer : SingletonMono<CameraViewer>
 			xDeg = ClampAngle (xDeg, xMinAngleLimit, xMaxAngleLimit);
 
 			StartRotate = true;
+			//rotateSpeed = 0f;
 		}
 
 		//if (StartRotate)

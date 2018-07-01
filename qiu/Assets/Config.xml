@@ -2,6 +2,12 @@
 <infos>
 
     <!-- 服务器数据 -->
+    <!-- 地球自转速度 -->
+    <rotateSpeed value="3.0"/>
+
+    <!-- earth颜色 -->
+    <earthColor value="156CC1"/>
+
     <!-- china颜色 -->
     <ChinaColor value="ff0000"/>
     
@@ -9,7 +15,7 @@
     <AfghanistanColor value="FF66FF"/>
     
     <!-- United States of Ameria颜色 -->
-    <UnitedStatesofAmeriaColor value="FF3300"/>
+    <UnitedStatesofAmeriaColor value="00FF76"/>
     
     <!-- Canada颜色 -->
     <CanadaColor value="CCCCFF"/>
@@ -51,169 +57,169 @@
     <AlgeriaColor value="FF9999"/>
 
     <!-- Japan颜色 -->
-    <JapanColor value="FF9999"/>
+    <JapanColor value="CCCCFF"/>
 
     <!-- South Korea颜色 -->
-    <SouthKoreaColor value="FF9999"/>
+    <SouthKoreaColor value="FF66FF"/>
 
     <!-- North Korea颜色 -->
-    <NorthKoreaColor value="FF9999"/>
+    <NorthKoreaColor value="00FF76"/>
 
     <!-- Mongolia颜色 -->
-    <MongoliaColor value="FF9999"/>
+    <MongoliaColor value="CC9933"/>
 
     <!-- Philippines颜色 -->
     <PhilippinesColor value="FF9999"/>
 
     <!-- Fiji颜色 -->
-    <FijiColor value="FF9999"/>
+    <FijiColor value="000000"/>
 
     <!-- New Caledonia颜色 -->
     <NewCaledoniaColor value="FF9999"/>
 
     <!--New Zealand颜色 -->
-    <NewZealandColor value="FF9999"/>
+    <NewZealandColor value="CCCCFF"/>
 
     <!-- Cambodia颜色 -->
-    <CambodiaColor value="FF9999"/>
+    <CambodiaColor value="00FF76"/>
 
     <!-- Vietnam颜色 -->
-    <VietnamColor value="FF9999"/>
+    <VietnamColor value="FF66FF"/>
 
     <!-- Laos颜色 -->
-    <LaosColor value="FF9999"/>
+    <LaosColor value="CC9933"/>
 
     <!-- Myanmar颜色 -->
     <MyanmarColor value="FF9999"/>
 
     <!--Thailand颜色 -->
-    <ThailandColor value="FF9999"/>
+    <ThailandColor value="CCCCFF"/>
 
     <!-- Bangladesh颜色 -->
-    <BangladeshColor value="FF9999"/>
+    <BangladeshColor value="000000"/>
 
     <!-- Bhutan颜色 -->
-    <BhutanColor value="FF9999"/>
+    <BhutanColor value="339999"/>
 
     <!-- Nepal颜色 -->
     <NepalColor value="FF9999"/>
 
     <!-- Sri Lanka颜色 -->
-    <SriLankaColor value="FF9999"/>
+    <SriLankaColor value="CC9933"/>
 
     <!--Pakistan颜色 -->
-    <PakistanColor value="FF9999"/>
+    <PakistanColor value="00FF76"/>
 
     <!-- Tajikistan颜色 -->
     <TajikistanColor value="FF9999"/>
 
     <!-- Kyrgyzstan颜色 -->
-    <KyrgyzstanColor value="FF9999"/>
+    <KyrgyzstanColor value="FF66FF"/>
 
     <!-- Kazakhstan颜色 -->
     <KazakhstanColor value="FF9999"/>
 
     <!-- Uzbekistan颜色 -->
-    <UzbekistanColor value="FF9999"/>
+    <UzbekistanColor value="CCCCFF"/>
 
     <!--Turkmenistan颜色 -->
-    <TurkmenistanColor value="FF9999"/>
+    <TurkmenistanColor value="00FF76"/>
 
     <!-- Azerbaijan颜色 -->
-    <AzerbaijanColor value="FF9999"/>
+    <AzerbaijanColor value="CC9933"/>
 
     <!-- Georgia颜色 -->
-    <GeorgiaColor value="FF9999"/>
+    <GeorgiaColor value="000000"/>
 
     <!-- Turkey颜色 -->
-    <TurkeyColor value="FF9999"/>
+    <TurkeyColor value="339999"/>
 
     <!-- Syria颜色 -->
-    <SyriaColor value="FF9999"/>
+    <SyriaColor value="FF66FF"/>
 
     <!-- Iraq颜色 -->
     <IraqColor value="FF9999"/>
 
     <!-- Kuwait颜色 -->
-    <KuwaitColor value="FF9999"/>
+    <KuwaitColor value="CCCCFF"/>
 
     <!-- Jordan颜色 -->
     <JordanColor value="FF9999"/>
 
     <!-- Lebanon颜色 -->
-    <LebanonColor value="FF9999"/>
+    <LebanonColor value="CC9933"/>
 
     <!-- Egypt颜色 -->
-    <EgyptColor value="FF9999"/>
+    <EgyptColor value="000000"/>
 
     <!-- Greece颜色 -->
-    <GreeceColor value="FF9999"/>
+    <GreeceColor value="CCCCFF"/>
 
     <!-- Romania颜色 -->
-    <RomaniaColor value="FF9999"/>
+    <RomaniaColor value="00FF76"/>
 
     <!-- Ukraine颜色 -->
-    <UkraineColor value="FF9999"/>
+    <UkraineColor value="FF66FF"/>
 
     <!-- Montenegro颜色 -->
     <MontenegroColor value="FF9999"/>
 
     <!-- Belarus颜色 -->
-    <BelarusColor value="FF9999"/>
+    <BelarusColor value="CC9933"/>
 
     <!-- Lithuania颜色 -->
-    <LithuaniaColor value="FF9999"/>
+    <LithuaniaColor value="CCCCFF"/>
 
     <!-- Latvia颜色 -->
-    <LatviaColor value="FF9999"/>
+    <LatviaColor value="000000"/>
 
     <!-- Estonia颜色 -->
-    <EstoniaColor value="FF9999"/>
+    <EstoniaColor value="339999"/>
 
     <!-- Poland颜色 -->
-    <PolandColor value="FF9999"/>
+    <PolandColor value="00FF76"/>
 
     <!-- Slovakia颜色 -->
     <SlovakiaColor value="FF9999"/>
 
     <!-- Germany颜色 -->
-    <GermanyColor value="FF9999"/>
+    <GermanyColor value="FF66FF"/>
 
     <!-- Denmark颜色 -->
-    <DenmarkColor value="FF9999"/>
+    <DenmarkColor value="CCCCFF"/>
 
     <!-- Sweden颜色 -->
-    <SwedenColor value="FF9999"/>
+    <SwedenColor value="000000"/>
 
     <!-- Finland颜色 -->
-    <FinlandColor value="FF9999"/>
+    <FinlandColor value="CC9933"/>
 
     <!-- Norway颜色 -->
-    <NorwayColor value="FF9999"/>
+    <NorwayColor value="339999"/>
 
     <!-- Italy颜色 -->
-    <ItalyColor value="FF9999"/>
+    <ItalyColor value="FF66FF"/>
 
     <!-- Slovenia颜色 -->
-    <SloveniaColor value="FF9999"/>
+    <SloveniaColor value="CC9933"/>
 
     <!-- Bosnia and Herzegovina颜色 -->
-    <BosniaandHerzegovinaColor value="FF9999"/>
+    <BosniaandHerzegovinaColor value="000000"/>
 
     <!-- France颜色 -->
-    <FranceColor value="FF9999"/>
+    <FranceColor value="00FF76"/>
 
     <!-- Netherlands颜色 -->
-    <NetherlandsColor value="FF9999"/>
+    <NetherlandsColor value="CCCCFF"/>
 
     <!-- United Kingdom颜色 -->
     <UnitedKingdomColor value="FF9999"/>
 
     <!-- Ireland颜色 -->
-    <IrelandColor value="FF9999"/>
+    <IrelandColor value="339999"/>
 
     <!-- Iceland颜色 -->
-    <IcelandColor value="FF9999"/>
+    <IcelandColor value="FF66FF"/>
 
     <!-- Greenland颜色 -->
     <GreenlandColor value="FF9999"/>
@@ -222,19 +228,19 @@
     <UnitedArabEmiratesColor value="FF9999"/>
 
     <!-- Qatar颜色 -->
-    <QatarColor value="FF9999"/>
+    <QatarColor value="000000"/>
 
     <!-- Oman颜色 -->
-    <OmanColor value="FF9999"/>
+    <OmanColor value="CCCCFF"/>
 
     <!-- Yemen颜色 -->
-    <YemenColor value="FF9999"/>
+    <YemenColor value="00FF76"/>
 
     <!-- Ethiopia颜色 -->
-    <EthiopiaColor value="FF9999"/>
+    <EthiopiaColor value="CC9933"/>
 
     <!-- Somalia颜色 -->
-    <SomaliaColor value="FF9999"/>
+    <SomaliaColor value="FF66FF"/>
 
     <!-- Kenya颜色 -->
     <KenyaColor value="FF9999"/>
@@ -243,182 +249,185 @@
     <MadagascarColor value="FF9999"/>
 
     <!-- Uganda颜色 -->
-    <UgandaColor value="FF9999"/>
+    <UgandaColor value="339999"/>
 
     <!-- United Republic of Tanzania颜色 -->
     <UnitedRepublicofTanzaniaColor value="FF9999"/>
 
     <!-- Mozambique颜色 -->
-    <MozambiqueColor value="FF9999"/>
+    <MozambiqueColor value="000000"/>
 
     <!-- Zimbabwe颜色 -->
-    <ZimbabweColor value="FF9999"/>
+    <ZimbabweColor value="00FF76"/>
 
     <!-- Zambia颜色 -->
-    <ZambiaColor value="FF9999"/>
+    <ZambiaColor value="CCCCFF"/>
 
     <!-- South Africa颜色 -->
-    <SouthAfricaColor value="FF9999"/>
+    <SouthAfricaColor value="FF66FF"/>
 
     <!-- Swaziland颜色 -->
     <SwazilandColor value="FF9999"/>
 
     <!-- Botswana颜色 -->
-    <BotswanaColor value="FF9999"/>
+    <BotswanaColor value="000000"/>
 
     <!-- Namibia颜色 -->
-    <NamibiaColor value="FF9999"/>
+    <NamibiaColor value="CCCCFF"/>
 
     <!-- Angola颜色 -->
-    <AngolaColor value="FF9999"/>
+    <AngolaColor value="339999"/>
 
     <!-- Republic of The congo颜色 -->
-    <RepublicofThecongoColor value="FF9999"/>
+    <RepublicofThecongoColor value="FFCC00"/>
 
     <!-- Democratic republic of the Congo颜色 -->
     <DemocraticrepublicoftheCongoColor value="FF9999"/>
 
     <!-- Central African Republic颜色 -->
-    <CentralAfricanRepublicColor value="FF9999"/>
+    <CentralAfricanRepublicColor value="FF66FF"/>
 
     <!-- Gabon颜色 -->
-    <GabonColor value="FF9999"/>
+    <GabonColor value="000000"/>
 
     <!-- Cameroon颜色 -->
-    <CameroonColor value="FF9999"/>
+    <CameroonColor value="FF66FF"/>
 
     <!-- Equatorial Guinea颜色 -->
-    <EquatorialGuineaColor value="FF9999"/>
+    <EquatorialGuineaColor value="339999"/>
 
     <!-- Chad颜色 -->
-    <ChadColor value="FF9999"/>
+    <ChadColor value="00FF76"/>
 
     <!-- Nigeria颜色 -->
-    <NigeriaColor value="FF9999"/>
+    <NigeriaColor value="CCCCFF"/>
 
     <!-- Niger颜色 -->
     <NigerColor value="FF9999"/>
 
     <!-- Mali颜色 -->
-    <MaliColor value="FF9999"/>
+    <MaliColor value="000000"/>
 
     <!-- Mauritania颜色 -->
     <MauritaniaColor value="FF9999"/>
 
     <!-- Burkina Faso颜色 -->
-    <BurkinaFasoColor value="FF9999"/>
+    <BurkinaFasoColor value="339999"/>
 
     <!-- Togo颜色 -->
-    <TogoColor value="FF9999"/>
+    <TogoColor value="00FF76"/>
 
     <!-- Ghana颜色 -->
-    <GhanaColor value="FF9999"/>
+    <GhanaColor value="FF66FF"/>
 
     <!-- lvory coast颜色 -->
-    <lvorycoastColor value="FF9999"/>
+    <lvorycoastColor value="CCCCFF"/>
 
     <!-- Liberia颜色 -->
-    <LiberiaColor value="FF9999"/>
+    <LiberiaColor value="FFCC00"/>
 
     <!-- Sierra Leone颜色 -->
-    <SierraLeoneColor value="FF9999"/>
+    <SierraLeoneColor value="CC9933"/>
 
     <!-- Guinea Bissau颜色 -->
     <GuineaBissauColor value="FF9999"/>
 
     <!-- Senegal颜色 -->
-    <SenegalColor value="FF9999"/>
+    <SenegalColor value="000000"/>
 
     <!-- Western Sahara颜色 -->
-    <WesternSaharaColor value="FF9999"/>
+    <WesternSaharaColor value="339999"/>
 
     <!-- Marocco颜色 -->
-    <MaroccoColor value="FF9999"/>
+    <MaroccoColor value="00FF76"/>
 
     <!-- Tunisia颜色 -->
-    <TunisiaColor value="FF9999"/>
+    <TunisiaColor value="FF66FF"/>
 
     <!-- Cyprus颜色 -->
-    <CyprusColor value="FF9999"/>
+    <CyprusColor value="CCCCFF"/>
 
     <!-- Spain颜色 -->
     <SpainColor value="FF9999"/>
 
     <!-- Uruguay颜色 -->
-    <UruguayColor value="FF9999"/>
+    <UruguayColor value="CC9933"/>
 
     <!-- Chili颜色 -->
-    <ChiliColor value="FF9999"/>
+    <ChiliColor value="FF66FF"/>
 
     <!-- Paraguay颜色 -->
-    <ParaguayColor value="FF9999"/>
+    <ParaguayColor value="00FF76"/>
 
     <!-- Bolivia颜色 -->
-    <BoliviaColor value="FF9999"/>
+    <BoliviaColor value="CCCCFF"/>
 
     <!-- Peru颜色 -->
-    <PeruColor value="FF9999"/>
+    <PeruColor value="000000"/>
 
     <!-- Ecuador颜色 -->
-    <EcuadorColor value="FF9999"/>
+    <EcuadorColor value="339999"/>
 
     <!-- Columbia颜色 -->
-    <ColumbiaColor value="FF9999"/>
+    <ColumbiaColor value="CC9933"/>
 
     <!-- Venezuela颜色 -->
-    <VenezuelaColor value="FF9999"/>
+    <VenezuelaColor value="00FF76"/>
 
     <!-- Guyana颜色 -->
-    <GuyanaColor value="FF9999"/>
+    <GuyanaColor value="FF66FF"/>
 
     <!-- Suriname颜色 -->
     <SurinameColor value="FF9999"/>
 
     <!-- French Guiana颜色 -->
-    <FrenchGuianaColor value="FF9999"/>
+    <FrenchGuianaColor value="CCCCFF"/>
 
     <!-- Panama颜色 -->
     <PanamaColor value="FF9999"/>
 
     <!-- Costa Rica颜色 -->
-    <CostaRicaColor value="FF9999"/>
+    <CostaRicaColor value="339999"/>
 
     <!-- Nicaragua颜色 -->
-    <NicaraguaColor value="FF9999"/>
+    <NicaraguaColor value="000000"/>
 
     <!-- Honduras颜色 -->
-    <HondurasColor value="FF9999"/>
+    <HondurasColor value="00FF76"/>
 
     <!-- El Salvador颜色 -->
-    <ElSalvadorColor value="FF9999"/>
+    <ElSalvadorColor value="CC9933"/>
 
     <!-- Guatemala颜色 -->
-    <GuatemalaColor value="FF9999"/>
+    <GuatemalaColor value="CCCCFF"/>
+
+     <!-- Belize颜色 -->
+    <BelizeColor value="FF66FF"/>
 
     <!-- Mexico颜色 -->
-    <MexicoColor value="FF9999"/>
+    <MexicoColor value="FFCC00"/>
 
     <!-- Puerto Rico颜色 -->
     <PuertoRicoColor value="FF9999"/>
 
     <!-- Cuba颜色 -->
-    <CubaColor value="FF9999"/>
+    <CubaColor value="339999"/>
 
     <!-- The Bahamas颜色 -->
-    <TheBahamasColor value="FF9999"/>
+    <TheBahamasColor value="000000"/>
 
     <!-- Jamaica颜色 -->
-    <JamaicaColor value="FF9999"/>
+    <JamaicaColor value="CC9933"/>
 
     <!-- Haiti颜色 -->
-    <HaitiColor value="FF9999"/>
+    <HaitiColor value="00FF76"/>
 
     <!-- Dominican Republic颜色 -->
     <DominicanRepublicColor value="FF9999"/>
 
     <!-- Malaysia颜色 -->
-    <MalaysiaColor value="FF9999"/>
+    <MalaysiaColor value="CCCCFF"/>
 
      <!-- Vanuatu颜色 -->
-    <VanuatuColor value="FF9999"/>
+    <VanuatuColor value="FF66FF"/>
 </infos>
