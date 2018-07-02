@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using System.Xml;
 using System.IO;
 
-public class ConfigEarth : MonoBehaviour {
+public class ConfigEarth : SingletonMono<ConfigEarth> {
 	private Button urlButton;
 
 	//public Text _text;
@@ -127,6 +127,34 @@ public class ConfigEarth : MonoBehaviour {
 			CompleteHandler();
 
 	}
+
+	public IEnumerator ReadXml(string Url, System.Action CompleteHandler = null)
+	{
+
+
+		XmlDocument xmlDoc = new XmlDocument ();
+		WWW www = new WWW (Url);
+		yield return www;
+		if (www.isDone)
+		{
+			 Debug.Log(www.text);
+			//_text.text = www.text;
+			xmlDoc.LoadXml (www.text);
+
+
+
+			LoadMaterualsColor (xmlDoc);
+
+
+		}
+
+		yield return new WaitForEndOfFrame ();
+		if (CompleteHandler != null)
+			CompleteHandler();
+
+	}
+
+
 
     public Color HexToColor(string hex)
     {
