@@ -68,7 +68,7 @@ public class ConfigEarth : SingletonMono<ConfigEarth> {
 
 			XmlNode earthSpeedNode = xmlDoc.SelectSingleNode("infos/rotateSpeed");
 			CameraViewer.getInstance.rotateSpeed = float.Parse(earthSpeedNode.Attributes ["value"].Value);
-			CameraViewer.getInstance.constRotateSpeed = float.Parse(earthSpeedNode.Attributes ["value"].Value);
+			//CameraViewer.getInstance.constRotateSpeed = float.Parse(earthSpeedNode.Attributes ["value"].Value);
 
 			LoadMaterualsColor (xmlDoc);
 			#region oldMaterials
