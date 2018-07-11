@@ -2,7 +2,8 @@
 <infos>
 
     <!-- 服务器数据 -->
-
+    <!-- 地球自转速度 -->
+    <rotateSpeed value="3.0"/>
 
     <!-- earth颜色 -->
     <earthColor value="156CC1"/>

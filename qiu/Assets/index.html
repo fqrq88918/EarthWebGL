@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <style type="text/css">
+        .processcontainer{
+            width:958px;
+            border:1px solid #ffffff;
+            height:25px;
+            
+        }
+    #processbar{
+        color:white;
+        background:#000000;
+        float:left;
+        height:100%;
+        text-align:center;
+        line-height:150%;
+    }
+    </style>
+    
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | earth</title>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/earth.json");
+    </script>
+    
+    <script type="text/javascript">
+        var addTimer = 1;
+        var continueProgress = false;
+        function changeProgressSpeed()
+        {
+            addTimer = 10;
+            continueProgress = true;
+        }
+    
+    function responceUnity()
+    {
+       gameInstance.SendMessage("requestJS", "ShowObj", "responce");
+    }
+    function responceConfig(path)
+    {
+        gameInstance.SendMessage("requestJS", "CallConfig", path);
+    }
+        
+        function setProcess(){
+            var processbar = document.getElementById("processbar");
+            if(!continueProgress && parseInt(processbar.style.width) <= 70)
+                processbar.style.width = parseInt(processbar.style.width) + addTimer + "%";
+            else if(continueProgress)
+                processbar.style.width = parseInt(processbar.style.width) + addTimer + "%";
+            processbar.innerHTML = processbar.style.width;
+            if(parseInt(processbar.style.width) >= 100){
+                window.clearInterval(bartimer);
+                document.getElementById("processbar").style.visibility="hidden";
+                responceUnity();
+            }
+        }
+    var bartimer = window.setInterval(function(){setProcess();},150);
+    window.onload = function(){
+        
+        bartimer;
+    }
+    </script>
+  </head>
+  <body>
+    <div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
+    
+    <div class="processcontainer">
+        <div id="processbar" style="width:0%;"></div>
+    </div>
+    <input type="button" value="测试1" onclick="javascript:responceConfig('Config2.xml');"/>
+    <input type="button" value="测试2" onclick="javascript:responceConfig('Config.xml');"/>
+  </body>
+</html>
