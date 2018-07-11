@@ -29,6 +29,6 @@ public class RequestJS : MonoBehaviour
     public void CallConfig(string configPath)
     {
         string serverPath = Application.absoluteURL + "/../" + configPath;
-        StartCoroutine(ConfigEarth.getInstance.ReadXml(serverPath));
+        StartCoroutine(ConfigEarth.getInstance.ReadPadCountXml(serverPath));
     }
 }

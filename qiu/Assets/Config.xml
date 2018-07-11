@@ -6,7 +6,7 @@
     <rotateSpeed value="3.0"/>
 
     <!-- 国家描边颜色 -->
-    <outLineColor value="156CC1"/>
+    <outLineColor value="0400FF"/>
 
     <!-- earth颜色 -->
     <earthColor value="156CC1"/>
