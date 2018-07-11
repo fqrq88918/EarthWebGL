@@ -92,14 +92,25 @@ Shader "Hidden/OutlineEffect"
 				half4 sample3 = tex2D(_OutlineSource, uv + float2(.0,_LineThicknessY));
 				half4 sample4 = tex2D(_OutlineSource, uv + float2(.0,-_LineThicknessY));
 
+                half4 sample1_1 = tex2D(_OutlineSource, uv + float2(_LineThicknessX,0.0));
+                half4 sample2_1 = tex2D(_OutlineSource, uv + float2(-_LineThicknessX,0.0));
+                half4 sample3_1 = tex2D(_OutlineSource, uv + float2(.0,_LineThicknessY));
+                half4 sample4_1 = tex2D(_OutlineSource, uv + float2(.0,-_LineThicknessY));
+
 				bool red = sample1.r > h || sample2.r > h || sample3.r > h || sample4.r > h;
 				bool green = sample1.g > h || sample2.g > h || sample3.g > h || sample4.g > h;
 				bool blue = sample1.b > h || sample2.b > h || sample3.b > h || sample4.b > h;
+
+                
 				 
 				if ((red && blue) || (green && blue) || (red && green))
 					return float4(0,0,0,0);
 				else
 					return outlineSource;
+
+                
+
+
 			}
 
 			ENDCG
@@ -144,6 +155,7 @@ Shader "Hidden/OutlineEffect"
 			half4 _LineColor1;
 			half4 _LineColor2;
 			half4 _LineColor3;
+           
 			int _FlipY;
 			int _Dark;
 			float _FillAmount;
@@ -171,6 +183,8 @@ Shader "Hidden/OutlineEffect"
 				half4 sample2 = tex2D(_OutlineSource, uv + float2(-_LineThicknessX,0.0));
 				half4 sample3 = tex2D(_OutlineSource, uv + float2(.0,_LineThicknessY));
 				half4 sample4 = tex2D(_OutlineSource, uv + float2(.0,-_LineThicknessY));
+
+               
 				
 				bool outside = outlineSource.a < h;
 				bool outsideDark = outside && _Dark;
@@ -234,7 +248,6 @@ Shader "Hidden/OutlineEffect"
 							originalPixel *= 1 - _LineColor3.a;
 						hasOutline = true;
 					}
-
 					if (!outside)
 						outline *= _FillAmount;
 				}					

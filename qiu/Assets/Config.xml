@@ -5,6 +5,9 @@
     <!-- 地球自转速度 -->
     <rotateSpeed value="3.0"/>
 
+    <!-- 国家描边颜色 -->
+    <outLineColor value="156CC1"/>
+
     <!-- earth颜色 -->
     <earthColor value="156CC1"/>
 

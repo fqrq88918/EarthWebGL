@@ -21,7 +21,7 @@ public class TextAnimaManager : MonoBehaviour {
 
     private void DoAnima()
     {
-        chinaText.GetComponent<RectTransform>().DOAnchorPos3D(new Vector3(0f,-20f,0f), 4f);
+        chinaText.GetComponent<RectTransform>().DOAnchorPos3D(new Vector3(0f,-30f,0f), 4f);
         chinaText.GetComponent<RectTransform>().DOScale(Vector3.one * 0.1f,4f).OnComplete(
             delegate
             {

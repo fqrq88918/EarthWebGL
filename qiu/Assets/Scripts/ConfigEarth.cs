@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Xml;
 using System.IO;
+using cakeslice;
 
 public class ConfigEarth : SingletonMono<ConfigEarth> {
 	private Button urlButton;
@@ -30,6 +31,8 @@ public class ConfigEarth : SingletonMono<ConfigEarth> {
 //    public Material AlgeriaMa;
 
 	public Material[] colorMaArray;
+
+    public OutlineEffect outLineEffect;
 	// Use this for initialization
 	void Start () {
 //		urlButton = GetComponent<Button> ();
@@ -68,6 +71,11 @@ public class ConfigEarth : SingletonMono<ConfigEarth> {
 
 			XmlNode earthSpeedNode = xmlDoc.SelectSingleNode("infos/rotateSpeed");
 			CameraViewer.getInstance.rotateSpeed = float.Parse(earthSpeedNode.Attributes ["value"].Value);
+
+            XmlNode outLineNode = xmlDoc.SelectSingleNode("infos/outLineColor");
+            outLineEffect.lineColor0 = HexToColor(outLineNode.Attributes["value"].Value);
+            outLineEffect.lineColor1 = HexToColor(outLineNode.Attributes["value"].Value);
+            outLineEffect.lineColor2 = HexToColor(outLineNode.Attributes["value"].Value);
 			//CameraViewer.getInstance.constRotateSpeed = float.Parse(earthSpeedNode.Attributes ["value"].Value);
 
 			LoadMaterualsColor (xmlDoc);

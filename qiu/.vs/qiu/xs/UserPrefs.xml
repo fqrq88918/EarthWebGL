@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{79E70D23-F59B-D3BD-3F4C-AEA3887714BE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TextAnimaManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/OutlineEffect/Resources/OutlineShader.shader">
     <Files>
       <File FileName="Assets/Scripts/MouseTouchHelper.cs" Line="53" Column="65" />
       <File FileName="Assets/Scripts/CameraViewer.cs" Line="106" Column="15" />
-      <File FileName="Assets/Scripts/ConfigEarth.cs" Line="56" Column="36" />
+      <File FileName="Assets/Scripts/ConfigEarth.cs" Line="78" Column="37" />
       <File FileName="../../../../../../../../Applications/MAMP/htdocs/test3JS/test.html" Line="1" Column="1" />
       <File FileName="Assets/Scripts/HighlighterController.cs" Line="44" Column="77" />
       <File FileName="Assets/Editor/CreateAssetBundles.cs" Line="14" Column="73" />
@@ -11,8 +11,12 @@
       <File FileName="Assets/Scripts/RequestJS.cs" Line="29" Column="27" />
       <File FileName="Assets/Scripts/ButtonLoadAllConfig.cs" Line="15" Column="68" />
       <File FileName="Assets/Scripts/AudioManager.cs" Line="45" Column="26" />
-      <File FileName="Assets/Scripts/TextAnimaManager.cs" Line="28" Column="93" />
-      <File FileName="Assets/Config.xml" Line="51" Column="32" NotebookId="1" />
+      <File FileName="Assets/Scripts/TextAnimaManager.cs" Line="24" Column="81" />
+      <File FileName="Assets/Config.xml" Line="9" Column="32" NotebookId="1" />
+      <File FileName="Assets/OutlineEffect/OutlineEffect.cs" Line="374" Column="73" NotebookId="1" />
+      <File FileName="Assets/OutlineEffect/Outline.cs" Line="37" Column="25" NotebookId="1" />
+      <File FileName="Assets/OutlineEffect/Resources/OutlineShader.shader" Line="146" Column="21" NotebookId="1" />
+      <File FileName="Assets/OutlineEffect/Resources/OutlineBufferShader.shader" Line="1" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
