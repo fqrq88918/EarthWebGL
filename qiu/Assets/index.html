@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <style type="text/css">
+        .app{
+            margin: auto;
+            width:1440px;
+            height:900px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top:30px;
+        }
+        
         .processcontainer{
-            width:958px;
-            border:1px solid #ffffff;
+            width:1438px;
+            border:0px solid #ffffff;
             height:25px;
+            margin: auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top:760px;
             
         }
     #processbar{
@@ -20,10 +35,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | earth</title>
+    <title>健康中国芯世界公共健康智能管理系统</title>
+    <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/earth.json");
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/earth.json", {onProgress: UnityProgress});
     </script>
     
     <script type="text/javascript">
@@ -65,8 +81,9 @@
     </script>
   </head>
   <body>
-    <div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
-    
+    <div class="app">
+      <div id="gameContainer"></div>
+   </div>
     <div class="processcontainer">
         <div id="processbar" style="width:0%;"></div>
     </div>
