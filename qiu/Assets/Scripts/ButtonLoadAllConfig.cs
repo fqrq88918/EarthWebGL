@@ -25,24 +25,24 @@ public class ButtonLoadAllConfig : MonoBehaviour {
         if (Application.platform == RuntimePlatform.WebGLPlayer)
         {
             
-            serverPath1 = Application.absoluteURL + "/../高血压人数.xml";
-            serverPath2 = Application.absoluteURL + "/../高血脂人数.xml";
-            serverPath3 = Application.absoluteURL + "/../糖尿病人数.xml";
-            serverPath4 = Application.absoluteURL + "/../高压.xml";
-            serverPath5 = Application.absoluteURL + "/../低压.xml";
-            serverPath6 = Application.absoluteURL + "/../血糖.xml";
-            serverPath7 = Application.absoluteURL + "/../血氧.xml";
+            serverPath1 = Application.absoluteURL + "/../Config1.xml";
+			serverPath2 = Application.absoluteURL + "/../Config2.xml";
+			serverPath3 = Application.absoluteURL + "/../Config3.xml";
+			serverPath4 = Application.absoluteURL + "/../Config4.xml";
+			serverPath5 = Application.absoluteURL + "/../Config5.xml";
+			serverPath6 = Application.absoluteURL + "/../Config6.xml";
+			serverPath7 = Application.absoluteURL + "/../Config7.xml";
            
         }
         else
         {
-            serverPath1 = "file://" + Application.dataPath + "/高血压人数.xml";
-            serverPath2 = "file://" + Application.dataPath + "/高血脂人数.xml";
-            serverPath3 = "file://" + Application.dataPath + "/糖尿病人数.xml";
-            serverPath4 = "file://" + Application.dataPath + "/高压.xml";
-            serverPath5 = "file://" + Application.dataPath + "/低压.xml";
-            serverPath6 = "file://" + Application.dataPath + "/血糖.xml";
-            serverPath7 = "file://" + Application.dataPath + "/血氧.xml";
+			serverPath1 = "file://" + Application.dataPath + "/Config1.xml";
+			serverPath2 = "file://" + Application.dataPath + "/Config2.xml";
+			serverPath3 = "file://" + Application.dataPath + "/Config3.xml";
+			serverPath4 = "file://" + Application.dataPath + "/Config4.xml";
+			serverPath5 = "file://" + Application.dataPath + "/Config5.xml";
+			serverPath6 = "file://" + Application.dataPath + "/Config6.xml";
+			serverPath7 = "file://" + Application.dataPath + "/Config7.xml";
 
         }
 		

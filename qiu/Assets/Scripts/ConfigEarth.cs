@@ -41,9 +41,9 @@ public class ConfigEarth : SingletonMono<ConfigEarth> {
 //			Application.OpenURL ("http://www.baidu.com");
 //		});
 		if(Application.platform == RuntimePlatform.WebGLPlayer)
-			serverPath = Application.absoluteURL + "/../Init.xml";
+			serverPath = Application.absoluteURL + "/../ConfigInit.xml";
 		else 
-            serverPath = "file://" + Application.dataPath + "/Init.xml";
+			serverPath = "file://" + Application.dataPath + "/ConfigInit.xml";
 		
         //Debug.Log(serverPath);
 		StartCoroutine(ReadPadCountXml (serverPath,delegate {
