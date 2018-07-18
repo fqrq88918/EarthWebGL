@@ -48,25 +48,25 @@ public class ButtonLoadAllConfig : MonoBehaviour {
 		
 		
 		button1.onClick.AddListener(delegate {
-			StartCoroutine(ConfigEarth.getInstance.ReadXml(serverPath1));
+            StartCoroutine(ConfigEarth.getInstance.ReadPadCountXml(serverPath1));
 		});
 		button2.onClick.AddListener(delegate {
-			StartCoroutine(ConfigEarth.getInstance.ReadXml(serverPath2));
+            StartCoroutine(ConfigEarth.getInstance.ReadPadCountXml(serverPath2));
 		});
         button3.onClick.AddListener(delegate {
-            StartCoroutine(ConfigEarth.getInstance.ReadXml(serverPath3));
+            StartCoroutine(ConfigEarth.getInstance.ReadPadCountXml(serverPath3));
         });
         button4.onClick.AddListener(delegate {
-            StartCoroutine(ConfigEarth.getInstance.ReadXml(serverPath4));
+            StartCoroutine(ConfigEarth.getInstance.ReadPadCountXml(serverPath4));
         });
         button5.onClick.AddListener(delegate {
-            StartCoroutine(ConfigEarth.getInstance.ReadXml(serverPath5));
+            StartCoroutine(ConfigEarth.getInstance.ReadPadCountXml(serverPath5));
         });
         button6.onClick.AddListener(delegate {
-            StartCoroutine(ConfigEarth.getInstance.ReadXml(serverPath6));
+            StartCoroutine(ConfigEarth.getInstance.ReadPadCountXml(serverPath6));
         });
         button7.onClick.AddListener(delegate {
-            StartCoroutine(ConfigEarth.getInstance.ReadXml(serverPath7));
+            StartCoroutine(ConfigEarth.getInstance.ReadPadCountXml(serverPath7));
         });
 
 	}
