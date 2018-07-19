@@ -4,6 +4,9 @@
     <!-- 服务器数据 -->
     <!-- 地球自转速度 -->
     <rotateSpeed value="3.0"/>
+    
+    <!-- 地球点击链接 -->
+    <chinaUrl value="http://221.229.221.230:8090/china.html"/>
 
     <!-- 国家描边颜色 -->
     <outLineColor value="000000"/>

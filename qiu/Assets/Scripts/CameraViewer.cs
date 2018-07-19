@@ -42,6 +42,8 @@ public class CameraViewer : SingletonMono<CameraViewer>
 
 	public float constRotateSpeed;
 
+	public string chinaUrl;
+
 	protected override void Awake()
 	{
         base.Awake();

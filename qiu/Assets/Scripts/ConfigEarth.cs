@@ -72,6 +72,9 @@ public class ConfigEarth : SingletonMono<ConfigEarth> {
 			XmlNode earthSpeedNode = xmlDoc.SelectSingleNode("infos/rotateSpeed");
 			CameraViewer.getInstance.rotateSpeed = float.Parse(earthSpeedNode.Attributes ["value"].Value);
 
+			XmlNode chinaUrlNode = xmlDoc.SelectSingleNode("infos/chinaUrl");
+			CameraViewer.getInstance.chinaUrl = chinaUrlNode.Attributes ["value"].Value;
+
             XmlNode outLineNode = xmlDoc.SelectSingleNode("infos/outLineColor");
             outLineEffect.lineColor0 = HexToColor(outLineNode.Attributes["value"].Value);
             outLineEffect.lineColor1 = HexToColor(outLineNode.Attributes["value"].Value);

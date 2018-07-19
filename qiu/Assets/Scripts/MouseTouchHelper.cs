@@ -85,7 +85,8 @@ public class MouseTouchHelper : MonoBehaviour {
 		{
             if (hit.collider.name == "China" && !isPressWrong && clickTimer <= 20f) 
 			{
-				Application.OpenURL ("http://221.229.221.230:8090/china.html");
+				//Application.OpenURL ("http://221.229.221.230:8090/china.html");
+				Application.OpenURL(CameraViewer.getInstance.chinaUrl);
 			}
 		}
 
