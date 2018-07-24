@@ -142,19 +142,28 @@ public class ConfigEarth : SingletonMono<ConfigEarth> {
 	public IEnumerator ReadXml(string Url, System.Action CompleteHandler = null)
 	{
 
-
+        if(CameraViewer.getInstance.isInitAnimaComplete)
+        {
 		XmlDocument xmlDoc = new XmlDocument ();
 		WWW www = new WWW (Url);
 		yield return www;
 		if (www.isDone)
 		{
-			// Debug.Log(www.text);
-			//_text.text = www.text;
-			xmlDoc.LoadXml (www.text);
+            xmlDoc.LoadXml(www.text);
+
+            XmlNode earthSpeedNode = xmlDoc.SelectSingleNode("infos/rotateSpeed");
+            CameraViewer.getInstance.rotateSpeed = float.Parse(earthSpeedNode.Attributes["value"].Value);
+
+            XmlNode chinaUrlNode = xmlDoc.SelectSingleNode("infos/chinaUrl");
+            CameraViewer.getInstance.chinaUrl = chinaUrlNode.Attributes["value"].Value;
+
+            XmlNode outLineNode = xmlDoc.SelectSingleNode("infos/outLineColor");
+            outLineEffect.lineColor0 = HexToColor(outLineNode.Attributes["value"].Value);
+            outLineEffect.lineColor1 = HexToColor(outLineNode.Attributes["value"].Value);
+            outLineEffect.lineColor2 = HexToColor(outLineNode.Attributes["value"].Value);
 
 
-
-			LoadMaterualsColor (xmlDoc);
+            LoadMaterualsColor(xmlDoc);
 
 
 		}
@@ -162,7 +171,7 @@ public class ConfigEarth : SingletonMono<ConfigEarth> {
 		yield return new WaitForEndOfFrame ();
 		if (CompleteHandler != null)
 			CompleteHandler();
-
+        }
 	}
 
 

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4a3eb6b73b4fc46c29eb22b045c0a652
+timeCreated: 1532399070
+licenseType: Pro
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FZLanTingHeiS-UL-GB
+  fontNames:
+  - FZLanTingHeiS-UL-GB
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
