@@ -5,22 +5,39 @@ using UnityEngine.UI;
 using DG.Tweening;
 
 public class EarthInitAnima : MonoBehaviour {
-    public Text text_1st;
-    public Text text_1st_Screen;
-    public Text text_2nd_Screen;
+    public GameObject text_1st;
+    public GameObject text_2nd;
+
+    public CanvasGroup ui_2D;
+    public Transform childCamera;
 
 	// Use this for initialization
 	void Start ()
     {
-        text_1st.transform.DOScale(1f, 3f).SetDelay(4f).OnComplete(delegate {
-                text_1st.transform.DOLocalRotate(Vector3.zero, 2f).OnComplete(delegate {
+        text_1st.transform.DOScale(1.5f, 3f).SetDelay(4f).OnComplete(delegate {
+            text_1st.transform.DOLocalRotate(new Vector3(0f,90f,0f), 1f).OnComplete(delegate {
+                text_2nd.transform.localScale = Vector3.one;
+                text_2nd.gameObject.SetActive(true);
                 text_1st.gameObject.SetActive(false);
-                text_1st_Screen.gameObject.SetActive(true);
-                text_1st_Screen.GetComponent<RectTransform>().DOAnchorPos(new Vector2(-543f, -53f),1f).OnComplete(delegate {
-                    text_2nd_Screen.DOFade(1f, 1f);
-                    text_2nd_Screen.transform.DOScale(0.5f, 1f);
+                text_2nd.transform.DOLocalRotate(new Vector3(0f, 180f, 0f), 1f).OnComplete(delegate {
+
+                    text_2nd.transform.DOScale(0f,0f).SetDelay(2f).OnComplete(delegate {
+                        childCamera.parent = null;
+                        text_2nd.SetActive(false);
+                        text_1st.transform.DOPause();
+                        text_1st.transform.localScale = Vector3.zero;
+                        text_1st.transform.localPosition = new Vector3(-4.49f, 3.45f, 0.06f);
+                        text_1st.transform.localEulerAngles = new Vector3(15.95f, 176.13f, -2.2f);
+                        text_1st.gameObject.SetActive(true);
+                        text_1st.transform.DOScale(Vector3.one * 0.7f, 1f).SetEase(Ease.OutBack);
+                        ui_2D.DOFade(1f, 2f);
+                        CameraViewer.getInstance.isInitAnimaComplete = true;
+                        CameraViewer.getInstance.StartRotate = false;
+                    });
 
                 });
+
+               
         });
 
         });

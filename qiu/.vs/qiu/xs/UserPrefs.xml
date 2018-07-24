@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EarthInitAnima.cs">
     <Files>
       <File FileName="Assets/Scripts/MouseTouchHelper.cs" Line="104" Column="6" />
-      <File FileName="Assets/Scripts/CameraViewer.cs" Line="33" Column="25" />
+      <File FileName="Assets/Scripts/CameraViewer.cs" Line="100" Column="38" />
       <File FileName="Assets/Scripts/ConfigEarth.cs" Line="174" Column="10" />
       <File FileName="../../../../../../../../Applications/MAMP/htdocs/test3JS/test.html" Line="1" Column="1" />
       <File FileName="Assets/Scripts/HighlighterController.cs" Line="44" Column="77" />
@@ -12,7 +12,7 @@
       <File FileName="Assets/Scripts/ButtonLoadAllConfig.cs" Line="69" Column="59" />
       <File FileName="Assets/Scripts/AudioManager.cs" Line="45" Column="26" />
       <File FileName="Assets/Scripts/TextAnimaManager.cs" Line="24" Column="81" />
-      <File FileName="Assets/Scripts/EarthInitAnima.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EarthInitAnima.cs" Line="8" Column="16" />
       <File FileName="Assets/OutlineEffect/OutlineEffect.cs" Line="372" Column="88" NotebookId="1" />
       <File FileName="Assets/OutlineEffect/Outline.cs" Line="37" Column="25" NotebookId="1" />
       <File FileName="Assets/OutlineEffect/Resources/OutlineShader.shader" Line="81" Column="34" NotebookId="1" />
