@@ -96,6 +96,7 @@ public class CameraViewer : SingletonMono<CameraViewer>
 
         if(!StartRotate)
         {
+			
             if(!isInitAnimaComplete)
                 xDeg += xSpeed * 0.05f * Time.deltaTime * 3f;
             else

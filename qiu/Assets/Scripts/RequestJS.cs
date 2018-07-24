@@ -23,6 +23,8 @@ public class RequestJS : MonoBehaviour
             foreach (GameObject _g in gameObj)
             {
                 _g.SetActive(true);
+				Camera.main.GetComponent<CameraViewer> ().enabled = true;
+				Camera.main.GetComponent<EarthInitAnima> ().enabled = true;
             }
     }
 
