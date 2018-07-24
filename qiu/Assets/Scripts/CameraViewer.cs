@@ -44,9 +44,13 @@ public class CameraViewer : SingletonMono<CameraViewer>
 
 	public string chinaUrl;
 
-	protected override void Awake()
+    //等待开机动画变量
+    public bool isInitAnimaComplete;
+
+    protected override void Awake()
 	{
         base.Awake();
+        isInitAnimaComplete = false;
         Init();
 	}
 	//void Awake() { Init(); }
@@ -87,31 +91,40 @@ public class CameraViewer : SingletonMono<CameraViewer>
 	void LateUpdate()
 	{
         
+            
+        
+
         if(!StartRotate)
         {
-			xDeg += xSpeed * 0.02f * Time.deltaTime * rotateSpeed;
+            if(!isInitAnimaComplete)
+                xDeg += xSpeed * 0.05f * Time.deltaTime * 3f;
+            else
+			    xDeg += xSpeed * 0.02f * Time.deltaTime * rotateSpeed;
         }
-        
-		// 鼠标滚轮 ———— 缩放远近
-        
-			desiredDistance -= Input.GetAxis ("Mouse ScrollWheel") * Time.deltaTime * zoomRate * Mathf.Abs (desiredDistance);
 
-		// 鼠标左键 ———— 旋转
-		if (Input.GetMouseButtonUp (0))
+        if (isInitAnimaComplete)
         {
-			StartRotate = false;
-		}
+            // 鼠标滚轮 ———— 缩放远近
 
-        if (Input.GetMouseButton (0))
-        {
-			xDeg += Input.GetAxis ("Mouse X") * xSpeed * 0.02f;
-			yDeg -= Input.GetAxis ("Mouse Y") * ySpeed * 0.02f;
-			yDeg = ClampAngle (yDeg, yMinAngleLimit, yMaxAngleLimit);
-			xDeg = ClampAngle (xDeg, xMinAngleLimit, xMaxAngleLimit);
+            desiredDistance -= Input.GetAxis("Mouse ScrollWheel") * Time.deltaTime * zoomRate * Mathf.Abs(desiredDistance);
 
-			StartRotate = true;
-			//rotateSpeed = 0f;
-		}
+            // 鼠标左键 ———— 旋转
+            if (Input.GetMouseButtonUp(0))
+            {
+                StartRotate = false;
+            }
+
+            if (Input.GetMouseButton(0))
+            {
+                xDeg += Input.GetAxis("Mouse X") * xSpeed * 0.02f;
+                yDeg -= Input.GetAxis("Mouse Y") * ySpeed * 0.02f;
+                yDeg = ClampAngle(yDeg, yMinAngleLimit, yMaxAngleLimit);
+                xDeg = ClampAngle(xDeg, xMinAngleLimit, xMaxAngleLimit);
+
+                StartRotate = true;
+                //rotateSpeed = 0f;
+            }
+        }
 
 		//if (StartRotate)
 		//{

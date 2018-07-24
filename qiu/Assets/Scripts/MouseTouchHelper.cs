@@ -26,6 +26,8 @@ public class MouseTouchHelper : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
+        if(CameraViewer.getInstance.isInitAnimaComplete)
+        {
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition); 
 		RaycastHit hit;  
 		if (Physics.Raycast (ray, out hit)) 
@@ -61,36 +63,43 @@ public class MouseTouchHelper : MonoBehaviour {
         {
             clickTimer++;
         }
+        }
 	}
 
 	void OnMouseDown()
 	{
-		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition); 
-		RaycastHit hit;  
-		if (Physics.Raycast (ray, out hit)) 
-		{
-			if (hit.collider.name == "China" ) 
-			{
-				isPressWrong = false;
-                clickTimer = 0;
-			}
-		}
+        if (CameraViewer.getInstance.isInitAnimaComplete)
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
+            {
+                if (hit.collider.name == "China")
+                {
+                    isPressWrong = false;
+                    clickTimer = 0;
+                }
+            }
+        }
 	}
 
-	void OnMouseUp()
-	{
-		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition); 
-		RaycastHit hit;  
-		if (Physics.Raycast (ray, out hit))
-		{
-            if (hit.collider.name == "China" && !isPressWrong && clickTimer <= 20f) 
-			{
-				//Application.OpenURL ("http://221.229.221.230:8090/china.html");
-				Application.OpenURL(CameraViewer.getInstance.chinaUrl);
-			}
-		}
+    void OnMouseUp()
+    {
+        if (CameraViewer.getInstance.isInitAnimaComplete)
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
+            {
+                if (hit.collider.name == "China" && !isPressWrong && clickTimer <= 20f)
+                {
+                    //Application.OpenURL ("http://221.229.221.230:8090/china.html");
+                    Application.OpenURL(CameraViewer.getInstance.chinaUrl);
+                }
+            }
 
-		isPressWrong = false;
+            isPressWrong = false;
 
-	}
+        }
+    }
 }
